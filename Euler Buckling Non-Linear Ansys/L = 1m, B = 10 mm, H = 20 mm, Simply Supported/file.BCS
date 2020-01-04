@@ -1,0 +1,69 @@
+
+  Performance statistics for Block Lanczos eigensolver: icalls =      1
+
+ ===================================
+ = sparse eigenanalysis statistics =
+ ===================================
+
+     number of equations                     =            1197
+     no. of nonzeroes in lower triangle of a =            3168
+     number of compressed nodes              =             199
+     no. of compressed nonzeroes in l. tri.  =             296
+     amount of workspace currently in use    =           21380
+     b has general form.
+     no. of nonzeroes in lower triangle of b =            1186
+     max. amt. of workspace used             =         1999989
+     no. of nonzeroes in the factor l        =           13858.
+     number of super nodes                   =              98
+     number of compressed subscripts         =             582
+     size of stack storage                   =             351
+     maximum order of a front matrix         =              26
+     maximum size of a front matrix          =             351
+     maximum size of a front trapezoid       =             310
+     no. of flt. pt. ops for a single factor =    2.153340D+05
+     no. of flt. pt. ops for a block solve   =    3.188700D+04
+     no. of flt. pt. ops for block mtx mult. =    2.773800D+04
+     total no. of flt. pt. ops for factor    =    6.460020D+05
+     total no. of flt. pt. ops for solve     =    2.327751D+06
+     total no. of flt. pt. ops for mtx mult. =    2.219040D+06
+     factorization panel size                =              20
+     factorization update panel size         =              20
+     solution block size                     =               8
+     lanczos block size                      =               2
+     number of cores used                    =               2
+     total number of factorizations          =               3
+     total number of lanczos runs            =               3
+     total number of lanczos steps           =              33
+     total number of block solves            =              37
+     time (cpu & wall) for structure input   =        0.000000        0.001286
+     time (cpu & wall) for ordering          =        0.031250        0.000855
+     time (cpu & wall) for symbolic factor   =        0.000000        0.001042
+     time (cpu & wall) for value input       =        0.000000        0.000694
+     time (cpu & wall) for numeric solve     =        0.031250        0.004167
+     computational rate (mflops) for solve   =       74.488032      558.655771
+
+     cost (elapsed time) for sparse eigenanalysis
+     -----------------------------
+     lanczos run start up cost               =        0.003052
+     lanczos run recurrence cost             =        0.004167
+     lanczos run reorthogonalization cost    =        0.009087
+     lanczos run internal eigenanalysis cost =        0.000461
+     lanczos eigenvector computation cost    =        0.000908
+     lanczos run overhead cost               =        0.006413
+
+     total lanczos run cost                  =        0.024088
+     total factorization cost                =        0.003734
+     shift strategy and overhead  cost       =        0.053891
+
+     total sparse eigenanalysis cost         =        0.081713
+
+     i/o stats:    unit           file length              amount transferred
+                                words     mbytes            words     mbytes
+                  ----          -----     ------            -----     ------
+
+                    21          1164.        0. MB          4074.        0. MB
+                    25         38304.        0. MB        258552.        2. MB
+                    28         35910.        0. MB        184338.        1. MB
+                    11          3591.        0. MB         33516.        0. MB
+
+                Total:         78969.        1. MB        480480.        4. MB

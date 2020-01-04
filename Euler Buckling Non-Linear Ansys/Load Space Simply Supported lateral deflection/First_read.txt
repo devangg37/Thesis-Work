@@ -1,0 +1,4 @@
+L = 1m, B = 10mm, H = 20mm
+Simply Supported
+Failure criteria - max lateral deflection = 10 mm
+P1 = 5000*cos(theta), P2 = 5000*sin(theta)
